@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# Real-time Chat 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+there is a register and login section for our app. with the links on the page, you can switch between the login and register page.
+![2_register](https://github.com/user-attachments/assets/f6f7c7df-c6d8-43bf-9f99-6d9de5f51b9c)
+![1_login](https://github.com/user-attachments/assets/5ec4e826-2d17-4f77-b86b-8c68efca1822)
 
-## Available Scripts
+this is how it looks when you transfer it to the homepage 
+![3_home](https://github.com/user-attachments/assets/be41dc29-f170-40b8-9f60-92b7536bda33)
 
-In the project directory, you can run:
 
-### `npm start`
+we type the name of the person we want to talk to in the search field, click on it, start a conversation with them and send them our first message (I've logged in with a different account and added the view from that account). 
+![4_friends](https://github.com/user-attachments/assets/66146b57-47fc-4999-9a0b-90a3266908b8)
+![5_message_e](https://github.com/user-attachments/assets/aa48eff3-7f69-4aae-ad0a-bedf0dc31d48)
+![6_message_s](https://github.com/user-attachments/assets/ebac631d-07bd-436f-a15d-0849837bbd9c)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+I added a feature called heart messages, similar to the starred messages feature in whatsapp. so as we change the switch button, we make changes to the record in the database. when we press the icon with three dots in the upper right corner, we see the heart messages we have saved. (video call and add contact buttons do not work. i added it only for display.) 
+![7_hearted_message](https://github.com/user-attachments/assets/45bdd146-3238-4df3-95d9-3a01e77edcfe)
+![8_show_hearted_message](https://github.com/user-attachments/assets/d544a803-d93a-4b2c-8aa5-62a48ad8b15d)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+I'm attaching a screenshot of me sending a message from another account to show that chatting is possible. 
+![9_send_back](https://github.com/user-attachments/assets/1cb32aa4-c246-4c30-bcea-b15f0d77f17a)
 
-### `npm test`
+also you can send a picture. 
+![10_send_photo](https://github.com/user-attachments/assets/29b98db4-c1d9-4e9a-9083-52e4f1a9339e)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+I am adding extra photos to show that there are messages from different people. 
+![11_friendssss](https://github.com/user-attachments/assets/4a379ce0-4fdf-4a68-9890-d2eb87af2ad9)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
